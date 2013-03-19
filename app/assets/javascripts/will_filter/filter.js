@@ -236,7 +236,7 @@ Wf.Calendar.prototype = {
           var calendar_container = Wf.element("wf_calendar");
           calendar_container.style.left = (trigger_position[0] - 273) + "px";
           calendar_container.style.top = trigger_position[1] - 38 + "px";
-          calendar_container.style.width = "260px";
+          calendar_container.style.width = "280px";
           Wf.Effects.appear("wf_calendar");
       } 
     });
