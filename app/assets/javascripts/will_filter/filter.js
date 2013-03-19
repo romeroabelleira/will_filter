@@ -258,7 +258,7 @@ Wf.Calendar.prototype = {
       parameters: form_hash,
       onComplete: function(transport) {
           var trigger_position = Wf.Utils.cumulativeOffset(wfCalendar.trigger);
-          var width = (mode=='annual' ? 760 : 400);
+          var width = (mode=='annual' ? 860 : 450);
           var calendar_container = Wf.element("wf_calendar");
           calendar_container.style.left = (trigger_position[0] - width - 13) + "px";
           calendar_container.style.top = trigger_position[1] - 38 + "px";
